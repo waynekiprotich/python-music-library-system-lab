@@ -1,3 +1,5 @@
+
+
 class Song:
 
     count = 0
@@ -6,13 +8,11 @@ class Song:
     genre_count = {}
     artists_count = {}
 
-    
     def __init__(self, name, artist, genre):
         self.name = name
         self.artist = artist
         self.genre = genre
 
-       
         self.__class__.add_song_to_count()
         self.__class__.add_to_genres(self.genre)
         self.__class__.add_to_artists(self.artist)
