@@ -20,4 +20,3 @@ Automatically tracks:
 Class attributes
 Class methods
 Dictionaries for counting
-Object-Oriented Programming (OOP)
